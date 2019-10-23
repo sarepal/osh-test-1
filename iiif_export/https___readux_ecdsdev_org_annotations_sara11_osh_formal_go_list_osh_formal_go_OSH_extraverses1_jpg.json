@@ -1,0 +1,88 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "@id": "https://readux.ecdsdev.org/annotations/sara11/osh-formal-go/list/osh-formal-go_OSH-extraverses1.jpg",
+    "resources": [
+        {
+            "annotatedBy": {
+                "name": "Sara E. Palmer"
+            },
+            "@id": "05c087b6-1442-4531-8225-80e201e26d9a",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": {
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@type": "sc:Manifest",
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/osh-formal-go/manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=651,505,517,373",
+                    "item": {
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=651,505,517,373"
+                        },
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M651.13526,504.9551h258.32034v0h258.32034v186.56756v186.56756h-258.32034h-258.32034v-186.56756z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_4f74de9c-c4e5-4267-a428-f3efc22049ab\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    }
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/osh-formal-go/canvas/osh-formal-go_OSH-extraverses1.jpg"
+            },
+            "resource": {
+                "chars": "<p>shape note</p>",
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "language": "en"
+            },
+            "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+            "annotatedBy": {
+                "name": "Sara E. Palmer"
+            },
+            "@id": "36c039bb-0703-4dcc-be6d-7c29be87e799",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": {
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@type": "sc:Manifest",
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/osh-formal-go/manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1018,1008,625,47",
+                    "item": {
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='79ac285f-f3a0-468d-b21e-d83257926450']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 0
+                            }
+                        },
+                        "@type": "RangeSelector",
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='af5fa1aa-ee13-4cab-bd9d-e3a11de80b81']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 4
+                            }
+                        }
+                    }
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/osh-formal-go/canvas/osh-formal-go_OSH-extraverses1.jpg"
+            },
+            "resource": {
+                "chars": "<p>text annotation</p>",
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "language": "en"
+            },
+            "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+    ]
+}
